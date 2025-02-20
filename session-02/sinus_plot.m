@@ -8,3 +8,5 @@ t = linspace(-1, 2, 3000);
 
 y = 3 * sin(4 * pi * t);
 plot(t, y);
+
+% saveas(gcf, 'saved/02-sinus.png');

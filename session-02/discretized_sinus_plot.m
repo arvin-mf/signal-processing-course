@@ -18,3 +18,5 @@ y_samp = sinyal(t_samp);
 
 stem(t_samp, y_samp);
 grid on;
+
+% saveas(gcf, 'saved/02-discretized_sinus.png');
